@@ -1,0 +1,8 @@
+# FROM denoland/deno:latest
+FROM lukechannings/deno:latest
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+EXPOSE 8000
